@@ -1,6 +1,7 @@
 import java.awt.*;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
+import java.util.Random;
 
 
 public class Main {
@@ -48,15 +49,70 @@ public class Main {
 //           friends = friends + 1;
 //           System.out.println(friends);
             //vid 5 ^^
-            String name = JOptionPane.showInputDialog("Enter your name");
-            JOptionPane.showMessageDialog(null, "Hello "+name);
+//            String name = JOptionPane.showInputDialog("Enter your name");
+//            JOptionPane.showMessageDialog(null, "Hello "+name);
+//
+//            int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
+//            JOptionPane.showMessageDialog(null, "You are "+age+" years old");
+//
+//            double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
+//            JOptionPane.showMessageDialog(null, "You are "+height+" cm tall");
 
-            int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
-            JOptionPane.showMessageDialog(null, "You are "+age+" years old");
+//        double x = 3.14;
+//        double y = -10;
+//
+//        double z = Math.max(x, y);
+//
+//        System.out.println(z);
 
-            double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
-            JOptionPane.showMessageDialog(null, "You are "+height+" cm tall");
+//        double x;
+//        double y;
+//        double z;
+//
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.println("Enter side x: ");
+//        x = scanner.nextDouble();
+//        System.out.println("Enter side y: ");
+//        y = scanner.nextDouble();
+//
+//        z = Math.sqrt((x*x) + (y*y));
+//
+//        System.out.println("The hypotenuse is : "+z);
+//        scanner.close();
 
+//          Random random = new Random();
+//
+////          int x = random.nextInt(6) + 1;
+//        double y = random.nextDouble();
+//        boolean z = random.nextBoolean();
+//
+//          System.out.println(z);
+
+        // if statements!
+//        int age = 12;
+//
+//        if(age>=18) {
+//            System.out.println("You are an adult!");
+//        }
+//        else if(age>=75) {
+//            System.out.println("OK Boomer!");
+//        }
+//        else {
+//            System.out.println("You are not an adult!");
+//        }
+
+//        skipped a buncha stuff now onto loops
+
+//        Scanner scanner = new Scanner(System.in);
+//        String name = "";
+//
+//        do{
+//            System.out.print("Enter your name: ");
+//            name = scanner.nextLine();
+//        }while(name.isBlank());
+//
+//        System.out.println("Hello "+name);
     }
 
 }
