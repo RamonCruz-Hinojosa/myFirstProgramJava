@@ -1,4 +1,5 @@
 import java.awt.*;
+import java.util.Locale;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 import java.util.Random;
@@ -113,6 +114,66 @@ public class Main {
 //        }while(name.isBlank());
 //
 //        System.out.println("Hello "+name);
+//        Scanner scan = new Scanner(System.in);
+//        int i = scan.nextInt();
+//        scan.close();
+//        // Write your code here.
+//
+////        System.out.println("String: " + s);
+////        System.out.println("Double: " + d);
+//        System.out.println("Int: " + i);
+//        String day = "Friday";
+//
+//        switch(day) {
+//            case "Sunday": System.out.println("It is Sunday");
+//            break;
+//            case "Monday": System.out.println("It is Monday");
+//            break;
+//            case "Tuesday": System.out.println("It is Tuesday");
+//            break;
+//            case "Wednesday": System.out.println("It is Wednesday");
+//            break;
+//            case "Thursday": System.out.println("It is Thursday");
+//            break;
+//            case "Friday": System.out.println("It is Friday");
+//            break;
+//            case "Saturday": System.out.println("It is Saturday");
+//            break;
+//        Scanner scanner = new Scanner(System.in);
+//        int rows;
+//        int columns;
+//        String symbol = "";
+//        System.out.println("Enter # of rows: ");
+//        rows = scanner.nextInt();
+//        System.out.println("Enter # of columns: ");
+//        columns = scanner.nextInt();
+//        System.out.println("Enter symbol to use: ");
+//        symbol = scanner.next();
+//
+//        for (int i=1; i<rows; i++) {
+//            System.out.println();
+//            for (int j=1; j<=columns;j++){
+//                System.out.print(symbol);
+//            }
+//        }
+
+//            String[] cars = {"Camaro", "Corvette", "Tesla"};
+//
+//            cars[0] = "Mustang";
+//
+//            System.out.println(cars[0]);
+
+//        String name = "Bro";
+
+//        boolean result = name.equalsIgnoreCase("bro");
+//        int result = name.length();
+//        char result = name.charAt(0);
+//        int result = name.indexOf("B");
+//        boolean result = name.isEmpty();
+//        String result = name.toUpperCase();
+//        String result = name.toLowerCase();
+//        String result = name.trim();
+//        String result = name.replace(oldChar, newChar);
     }
 
 }
